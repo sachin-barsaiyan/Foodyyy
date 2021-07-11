@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ body,html{
+    font-family: Arial,"lato",sans-serif;
+   height: 100%;
+   margin: 0px;
+ }
+
+ .bg{
+    background: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+ }
+ .container{
+     height: 500px;
+     width: 300px;
+     background-color: azure;
+     border-radius: 5px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+ }
+ .container:hover{
+    box-shadow:  5px 10px 5px rgba(60, 172, 192, 0.6);
+}
+
+ #user img{
+     margin: 10px 45%;
+    height: 55px;
+    width: 55px;
+    transition: transform 2s ease-in-out;
+ }
+ #user img:hover{
+        transform: rotate(70deg);    
+ }
+ .welcome{
+     font-size: 1.1rem;
+     text-align: center;
+     text-transform: capitalize;
+     color: rgb(91, 129, 249);
+ }
+ .cont{
+     margin: 40px 20px;
+ }
+ .cont i{
+     margin-right: 8px;
+ }
+
+ #social{
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #39569c;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+ }
+ #social1{
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #ec5574;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+ }
+
+ .underline-container{
+    position: relative;
+     display: flex;
+     justify-content: center;
+     margin: 15px 42px;
+     
+ }
+ .underline{
+     width: 80px;
+     height: 2px;
+     background-color: rgb(161, 161, 161);
+ }
+
+ .or-heading{
+     text-align: center;
+     margin-top: -10px;
+     padding: 0px 10px;
+ }
+
+ .inputbox{
+    width: 220px;
+    height: 30px;
+    margin:  10px 30px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+
+    
+
+}
+.inputbox1{
+   width: 220px;
+   height: 30px;
+   margin:  10px 30px 30px;
+   border-radius: 40px;
+   outline: none;
+   border: none;
+   padding-left: 10px;
+   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+   
+
+}
+
+.login-btn{
+    
+    margin:30px;
+    padding: 8px 92px;
+    background-image: linear-gradient(to left,  rgb(170, 170, 241),rgb(39, 39, 250));
+    border-radius: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+    
+}
+.forget-password{
+    position: absolute;
+   margin: 20px 68px;
+   text-decoration: none;
+   font-weight: bold;
+
+     
+}
+.register{
+    position: absolute;
+    margin-top: 40px;
+    font-size: 0.8rem;
+    padding:  10px 20px;
+}
+ .register-now{
+     text-decoration: none;
+      margin-left: 10px;
+      font-size: 0.8rem;
+      font-weight: bold;
+ }
+
+ input:hover{
+    box-shadow:5px 10px 12px rgb(40, 133, 161);
+}
